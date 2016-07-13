@@ -17,7 +17,7 @@ function ready(){
             for(var i=0;i<devices.length;i++){
                 console.log(devices[i].name);
                 
-                el+="<div class='col-lg-4' id='c"+devices[i].id+"'><div class='col-lg-title'><h2>"+devices[i].name+"</h2><span><h4>"+devices[i].brand+"</h4><h4>"+devices[i].price+"</h4></span></div><br>"+
+                el+="<div class='col-lg-4' ><div class='col-lg-title'><h2>"+devices[i].name+"</h2><span><h4>"+devices[i].brand+"</h4><h4>"+devices[i].price+"</h4></span></div><br>"+
                     "<div class='col' > <img class='img-responsive' src="+devices[i].image +"></div></div>"; 
                 
                 
