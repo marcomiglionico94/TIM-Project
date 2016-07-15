@@ -1,9 +1,7 @@
 $(document).ready(ready);
 
 function ready(){
-    console.log("I'm ready!");
-        
- var id = document.location.search.substr('?id='.length) | 0;
+var id = document.location.search.substr('?id='.length) | 0;
     console.log("I'm ready!");
     $('.phone-specific').each(function(){
        var e = $(this);
@@ -21,10 +19,10 @@ function ready(){
             var device=JSON.parse(response);
             var el="";
               console.log(device[0].name);
-                el+="<h8>"+device[0].name+"</h8><br><h7>Technical Characteristics</h7><p id='p1'>"+device[0].technical_characteristics+"</p>";
+                el+= "<img class='featurette-image img-responsive center-block' src="+device[0].image +">;
             
             
-            $(".row").html(el);
+            $(".co-lg-3").html(el);
         },
         error: function(request,error) 
           {

@@ -1,8 +1,12 @@
 $(document).ready(ready);
 
 function ready(){
+var id = document.location.search.substr('?id='.length) | 0;
     console.log("I'm ready!");
-    var id=1;
+    $('.phone-specific').each(function(){
+       var e = $(this);
+        e.attr('href', e.attr('href')+'?id='+id);
+    });
     
     $.ajax({
         method: "POST",

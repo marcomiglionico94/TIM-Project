@@ -1,20 +1,17 @@
 $(document).ready(ready);
 
 function ready(){
-    console.log("I'm ready!");
-        
- var id = document.location.search.substr('?id='.length) | 0;
+     var id = document.location.search.substr('?id='.length) | 0;
     console.log("I'm ready!");
     $('.phone-specific').each(function(){
        var e = $(this);
         e.attr('href', e.attr('href')+'?id='+id);
-    });
-    
+       }); 
     $.ajax({
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "http://localhost/iphone.php", //Relative or absolute path to file.php file
+        url: "http://localhost/tv1.php", //Relative or absolute path to file.php file
         data: {device:id},
         success: function(response) {
              console.log(JSON.parse(response));
@@ -31,5 +28,5 @@ function ready(){
             console.log("Error");
         }
     });
-
 }
+                              

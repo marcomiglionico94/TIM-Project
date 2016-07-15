@@ -18,7 +18,7 @@ catch(PDOException $e) {
 
 // preparazione della query 
 $id = intval($_POST['device']);
-$sql = $db->prepare('SELECT * FROM `smartphone_telephones` WHERE id="'.$id.'"');
+$sql = $db->prepare('SELECT * FROM `tablet_computer` WHERE id="'.$id.'"');
 
 // esecuzione della query 
 $sql->execute(); 
