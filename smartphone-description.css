@@ -24,6 +24,10 @@
     margin-right: auto;
     margin-left: auto;
 }
+#path{
+    padding-left: 15%;
+    margin-left: 1%;
+}
 .col{
   width=60%;
   height: 75%;  
@@ -229,6 +233,9 @@
     font-size: 15px;
     padding-left: 20%;
 }
+#path{
+    padding-left: 1%;
+    }
     .lead {
     margin-bottom: 20%;
     margin-top: 20%;
