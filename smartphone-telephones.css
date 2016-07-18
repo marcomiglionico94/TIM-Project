@@ -212,6 +212,14 @@
 #menu-accordeon{
     display:none;
 }
+    .dropdown-backdrop {
+    position:static;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   
+}
     .navbar-toggle{
         background-color:darkgray;
     }

@@ -17,7 +17,7 @@ catch(PDOException $e) {
 # utilizzo del metodo prepare()
 
 // preparazione della query 
-$sql = $db->prepare('SELECT * FROM timgames WHERE name="I LOVE GAMES PROMO"');
+$sql = $db->prepare('SELECT * FROM timreading');
 
 // esecuzione della query 
 $sql->execute(); 

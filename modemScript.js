@@ -8,7 +8,7 @@ function ready(){
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "http://localhost/modem.php", //Relative or absolute path to file.php file
+        url: "modem.php", //Relative or absolute path to file.php file
         data: {devices:id},
         success: function(response) {
             console.log(JSON.parse(response));

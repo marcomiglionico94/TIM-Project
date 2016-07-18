@@ -1,7 +1,7 @@
 <?php
-$col = 'mysql:host=localhost;dbname=devices2';
-$username='marco';
-$password='marco';
+$col = 'mysql:host=localhost;dbname=my_timprj';
+$username='timprj';
+$password='';
 // blocco try per il lancio dell'istruzione
 try {
   // connessione tramite creazione di un oggetto PDO

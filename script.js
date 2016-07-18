@@ -3,12 +3,12 @@ $(document).ready(ready);
 function ready(){
     console.log("I'm ready!");
     var id=1;
-    
+    //prova
     $.ajax({
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "http://localhost/database.php", //Relative or absolute path to file.php file
+        url: "database.php", //Relative or absolute path to file.php file
         data: {devices:id},
         success: function(response) {
             console.log(JSON.parse(response));

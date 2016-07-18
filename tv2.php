@@ -1,6 +1,6 @@
 <?php
-$col = 'mysql:host=localhost;dbname=tv&entertainment';
-$username='root';
+$col = 'mysql:host=localhost;dbname=my_timprj';
+$username='timprj';
 $password='';
 // blocco try per il lancio dell'istruzione
 try {

@@ -7,6 +7,14 @@
 .container img{
     width:100%;
 }
+.dropdown-backdrop {
+    position:static;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   
+}
 #c1{
     text-align: right;
     margin-left: 8%;
