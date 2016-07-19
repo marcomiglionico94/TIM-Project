@@ -1,21 +1,34 @@
-
-.row img{
-    width:100%;
+.col-lg-title{
+    height: 25%;
+    
 }
-.dropdown-backdrop {
-    position:static;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-   
+.h2, h2 {
+    font-size: 30px;
+    padding-left: 7%;
+}
+.h4, h4 {
+    font-size: 18px;
+    padding-left: 38%;
+}
+.col{
+  width=60%;
+  height: 75%;  
+}
+.col-lg-4{
+    width:30%;
+}
+
+#ps1{
+    padding-left:20%;
 }
 #path{
     padding-left: 15%;
     margin-left: 1%;
 }
-.col-md-6{
-    padding-left: 15%;
+.h1,h1 {
+    font-size: 36px;
+    color: blue;
+    margin-left: 14%;
 }
 .footer {
   margin-top: 0px;
@@ -181,6 +194,16 @@
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (max-width: 768px) {
+    .row{
+        margin-left: 0px;
+        
+    }
+#path{
+    padding-left: 1%;
+    }
+    container{
+        margin-left: 0px;
+    }
 .carousel{
         margin-left: 0;
     }
@@ -192,13 +215,6 @@
 .row img{
     width:100%;
 }
-
-#path{
-    padding-left: 1%;
-    }
-.col-md-6{
-    padding-left: 0%;    
-    }
 .navbar-wrapper{
      position: relative;
     left: 0px;
@@ -228,6 +244,9 @@
 
 }
 @media (min-width: 768px) {
+    .img-responsive{
+    height:264px;
+}
     .featurette-heading {
     font-size: 50px;
   }
@@ -366,6 +385,4 @@
   margin-right: 10px;
   margin-left: 10px;
 }
-.featurette{
-    margin: auto;
-}
+

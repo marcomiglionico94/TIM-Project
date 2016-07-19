@@ -10,7 +10,7 @@
   
     <!--<link rel="icon" href="C:\Users\Marco\Desktop\prove html\bootstrap-3.3.6\docs\favicon.ico">-->
 
-    <title>Personal Services</title>
+    <title>Request For Info Form</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.3.6\css\bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
     <link href="bootstrap-3.3.6\css\ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="personal-services.css" rel="stylesheet">
+    <link href="form.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -80,13 +80,13 @@
                               </ul>
                           </li>
                           <li><a href="promotions.html">Promotions</a></li>
-                          <li class="dropdown active">
+                          <li class="dropdown">
                               <a href="category-of-services.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category of services <span class="caret"></span></a>
                               <ul class="vertical-dropdown-menu dropdown-menu">
                                   <li><a href="tv-entertainment.html">Tv & Entertainment</a></li>
                                  <li><a href="health-wellness.html">Health & Wellness</a></li>
                                  <li><a href="home-family.html">Home & Family</a></li>
-                                 <li class="active"><a href="personal-services.html">Personal Services</a></li>
+                                 <li><a href="personal-services.html">Personal Services</a></li>
                               </ul>
                           </li>
                           <li class="dropdown">
@@ -129,13 +129,13 @@
                 <li><a href="category-of-devices.html">Category of devices</a>
                     <ul>
                         <li><a href="smartphone-telephone.html">Smartphone & Telephones</a></li>
-                        <li><a href="tablet-computer.html">Tablet & Computer</a></li>
+                        <li><a href="tablet-computer">Tablet & Computer</a></li>
                         <li><a href="modem.html">Modem & Networking</a></li>
                         <li><a href="tv-smartliving.html">Tv & SmartLiving</a></li>
                     </ul>
                 </li>
                 <li><a href="promotions.html">Promotions</a></li>
-                <li class="active"><a href="category-of-services.html">Category of services</a>
+                <li><a href="category-of-services.html">Category of services</a>
               <ul>
                  <li><a href="tv-entertainment.html">Tv & Entertainment</a></li>
                  <li><a href="health-wellness.html">Health & Wellness</a></li>
@@ -158,32 +158,67 @@
                   </nav>
               </div>
           </div>
-        
-           <div class="container" id="path">
-    <p>
-    <a href="category-of-services.html">Category of Services</a> > Personal Services
-    </p>      
+    <div class="row">  <h5>
+         <a href="homepage.html">Homepage</a>>General Request Form
+    </h5> 
+             </div>
+    <div class="row">
+    <br>
+    <h1><b>Form for general request of Info</b></h1>
+    <br/>
+    <form id="generalreq">
+     <div class="col-lg-4 ">
+    <h4>First Name*</h4>
+    <input type="text" placeholder="name">
+    <br/>
+    <h4>Middle Name</h4>
+    <input type="text" placeholder="middle name">
+    <br/>
+    <h4>Last Name</h4>
+    <input type="text" placeholder="last name">
+    <br/>
+    <h4>Nickname</h4>
+    <input type="text" placeholder="nickname">
+    <br/>
+    <h4>BirthDate*</h4>
+    <input type="date"> <br/>
+    <br>
+    <h4>Email adress*</h4>
+    <input type="text" placeholder="email adress">
+    <br/>
+    <h4>Mailing adress*</h4>
+    <input type="text" placeholder="mailing adress">
+    <br/>
+        </div>
+    <div class="col-lg-4">
+    <h4>City</h4>
+    <input type="text" placeholder="city">
+    <br/>
+    <h4>State</h4>
+    <input type="text" placeholder="state">
+    <br/>
+    <h4>Country</h4>
+    <input type="text" placeholder="country">
+    <br/>
+    <h4>postan code</h4>
+    <input type="text" placeholder="postal code">
+    <br/>
+    <h4>Home Phone</h4>
+    <input type="text" placeholder="home phone">
+    <br/>
+    <h4>Mobile Phone</h4>
+    <input type="text" placeholder="mobile phone">
+    <br/>
+    <h4>Write your request here:</h4>
+        <textarea rows=4 cols=50 name="request" form="generalreq">Enter your request here...</textarea>
+        <br>
+        <input type="submit" value="SEND">
     </div>
-          
-<!-- START THE FEATURETTES -->
+     
+        </form>
+        </div>
 
-      <div class="row featurette">
-        <div class="col-md-6 col-md-push-6">
-                    <img class="featurette-image img-responsive center-block" src="ImmaginiTIM/payments.png" alt="payments">
-        </div>
-        <div class="col-md-6 col-md-pull-6">
-                    <img class="featurette-image img-responsive center-block" src="ImmaginiTIM/transports.png" alt="transports">
-        </div>
-      </div>
-      <div class="row featurette">
-        <div class="col-md-6 col-md-push-6">
-                    <img class="featurette-image img-responsive center-block" src="ImmaginiTIM/fidelitycard.png" alt="fidelitycard">
-        </div>
-        <div class="col-md-6 col-md-pull-6">
-                    <img class="featurette-image img-responsive center-block" src="ImmaginiTIM/coupon.png" alt="coupon">
-        </div>
-      </div>
-    </div>
+</div>
       <!-- Site footer -->
       <footer class="footer">
           <p class="align-right"> Telecom Italia 2012-P.IVA 00488410010</p>
